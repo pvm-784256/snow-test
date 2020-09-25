@@ -31,7 +31,7 @@ mckLocation.prototype = /** @lends System.mckLocation# */ {
         /* type */ this._param1 = param1;
         /* type */ this._param2 = param2;
         /* type */ this._param3 = param3;
-		//gs.log("Hello");
+		gs.log("Hello");
     },
 
     /**
@@ -72,14 +72,14 @@ mckLocation.prototype = /** @lends System.mckLocation# */ {
         <sys_created_by>philip.van.melle</sys_created_by>
         <sys_created_on>2020-09-07 14:24:51</sys_created_on>
         <sys_id>bdf4466207cb1010e3b5f26d7c1ed0d1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>mckLocation</sys_name>
         <sys_package display_value="Core" source="x_207396_core">975486ae07831010e3b5f26d7c1ed070</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Core">975486ae07831010e3b5f26d7c1ed070</sys_scope>
         <sys_update_name>sys_script_include_bdf4466207cb1010e3b5f26d7c1ed0d1</sys_update_name>
         <sys_updated_by>philip.van.melle</sys_updated_by>
-        <sys_updated_on>2020-09-16 13:04:51</sys_updated_on>
+        <sys_updated_on>2020-09-25 14:03:35</sys_updated_on>
         <u_class_type/>
         <u_folder/>
         <u_jsdoc>false</u_jsdoc>
