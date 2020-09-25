@@ -2,7 +2,7 @@
     <sys_app_application action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="">Custom Applications</category>
-        <description>Core Locations</description>
+        <description>A hit of core Locations</description>
         <device_type>browser</device_type>
         <hint>Core Locations</hint>
         <name/>
@@ -14,7 +14,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>94d4026207cb1010e3b5f26d7c1ed0ef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Core</sys_name>
         <sys_overrides/>
         <sys_package display_value="Core" source="x_207396_core">975486ae07831010e3b5f26d7c1ed070</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Core">975486ae07831010e3b5f26d7c1ed070</sys_scope>
         <sys_update_name>sys_app_application_94d4026207cb1010e3b5f26d7c1ed0ef</sys_update_name>
         <sys_updated_by>philip.van.melle</sys_updated_by>
-        <sys_updated_on>2020-09-07 14:23:05</sys_updated_on>
+        <sys_updated_on>2020-09-25 14:06:49</sys_updated_on>
         <title>Core</title>
         <view_name/>
     </sys_app_application>
