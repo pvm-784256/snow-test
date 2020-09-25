@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Core Locations</description>
+        <device_type>browser</device_type>
+        <hint>Core Locations</hint>
+        <name/>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>philip.van.melle</sys_created_by>
+        <sys_created_on>2020-09-07 14:23:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94d4026207cb1010e3b5f26d7c1ed0ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Core</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Core" source="x_207396_core">975486ae07831010e3b5f26d7c1ed070</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Core">975486ae07831010e3b5f26d7c1ed070</sys_scope>
+        <sys_update_name>sys_app_application_94d4026207cb1010e3b5f26d7c1ed0ef</sys_update_name>
+        <sys_updated_by>philip.van.melle</sys_updated_by>
+        <sys_updated_on>2020-09-07 14:23:05</sys_updated_on>
+        <title>Core</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

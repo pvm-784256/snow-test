@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_207396_core.mckLocation</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>ToDo </description>
+        <name>mckLocation</name>
+        <script><![CDATA[/**
+ * Description of the class.
+ * @memberof System
+ * @class System.mckLocation
+ * @constructs System.mckLocation
+ * @param {type} param1 Description of param1
+ * @param {type} param1 Description of param2
+ * @param {type} param3 Description of param3
+ * @returns {System.mckLocation}
+ * @throws {System.mckException}
+ * @example
+ * var obj = new mckLocation("value1", "value2", "value3");
+ */
+var mckLocation = Class.create();
+
+mckLocation.prototype = /** @lends System.mckLocation# */ {
+
+    /* GSLog */_gsl: new global.GSLog('mck.logging.sys_script_include.mckLocation', "mckLocation"),
+
+    initialize: function(param1, param2, param3) {
+        /* Object */ this._initSysProps();
+        /* type */ this._param1 = param1;
+        /* type */ this._param2 = param2;
+        /* type */ this._param3 = param3;
+		//gs.log("Hello");
+    },
+
+    /**
+     * Description of the public method
+     * @param {type} param description
+     * @returns {type}
+     * @throws {System.mckException}
+     * @example
+     * var obj = new mckLocation("value1", "value2", "value3")
+     * obj.aPublicmethod(param);
+     */
+    aPublicmethod: function(param) {
+        throw new mckNotImplementedException('Method aPublicmethod() has not been implemented', this, "aPublicmethod");
+    },
+
+    /**
+     * Description of the private method
+     */
+    _aPrivatemethod: function() {
+        throw new mckNotImplementedException('Method _aPrivatemethod() has not been implemented', this, "_aPrivatemethod");
+    },
+
+    /**
+     * Initialization of all properties used by the class.
+     */
+    _initSysProps: function() {
+        this._sysprops = {
+            "prop1": gs.getProperty("name.of.the.property"),
+            "prop2": 100,
+            "prop3": "some_value"
+        };
+    },
+
+    type: 'mckLocation'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>philip.van.melle</sys_created_by>
+        <sys_created_on>2020-09-07 14:24:51</sys_created_on>
+        <sys_id>bdf4466207cb1010e3b5f26d7c1ed0d1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>mckLocation</sys_name>
+        <sys_package display_value="Core" source="x_207396_core">975486ae07831010e3b5f26d7c1ed070</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Core">975486ae07831010e3b5f26d7c1ed070</sys_scope>
+        <sys_update_name>sys_script_include_bdf4466207cb1010e3b5f26d7c1ed0d1</sys_update_name>
+        <sys_updated_by>philip.van.melle</sys_updated_by>
+        <sys_updated_on>2020-09-16 13:04:51</sys_updated_on>
+        <u_class_type/>
+        <u_folder/>
+        <u_jsdoc>false</u_jsdoc>
+        <u_namespace/>
+        <u_test_errors/>
+        <u_test_for/>
+        <u_test_last_run/>
+        <u_test_results/>
+        <u_test_status>UNKNOWN</u_test_status>
+        <u_test_user/>
+        <u_tested_by/>
+    </sys_script_include>
+</record_update>
